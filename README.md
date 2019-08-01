@@ -1,2 +1,2 @@
 # WEB601
-My Journal repository for the WEB601 class.
+My Journal entry for week 1 WEB601 
