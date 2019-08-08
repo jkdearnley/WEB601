@@ -1,0 +1,21 @@
+This week, we learned more about GitHub and the community around it. We also learned more about using
+git commands in VSCode, these included copying a repository on to our persnal machines, 
+saving them locally, saving changes we've made to the locally 
+saved files, using git commit, selecting branch or the master file (git checkout),
+and creating a branch within the repository. 
+
+We also learned how to merge a created branch with the master, before pushing to update the
+master on GitHub itself.
+
+We then leanred about pull requests, which update the saved files to match the current GitHub master files.
+Following this we were split into teams and given the task of designing and building a website, starting from
+planning - Storyboard and wireframe.
+
+From there, we had to work together to build this website. I was selected as my teams Git master hosting
+ the repository on my account, granting permission to the team as contributors. We split the workload 
+ and each member worked on seperate parts of the website, creating their own branches, merging and pushing to
+ master once what they had completed and tested their work.
+
+ With this, I can see why GitHub is so widely used among developers, once the team was clear on what sections 
+ they were working on, we were able to have a basic website created, in a very short timeframe.
+
