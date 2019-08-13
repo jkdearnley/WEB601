@@ -1,0 +1,51 @@
+This week we started the looking into Javascript, a primarily web based coding language. 
+I have had minimal experience with coding javascript, however, I have always been interested 
+in it due to it being so widely used.
+
+Our first session of the week, we bagan with the basics of javascript, using console.log 
+satatements. Simple statements that take information from variables we've set, and 
+prints them in the console, eg.
+
+const lastName = "Dearnley"
+const fistName = "Jayden"
+console.log(firstName)
+console.log(lastName)
+
+Resulting int the console printing :
+Jayden
+Dearnley
+
+We also covered using the console to print answers of simple math related equations,
+including: Addition, Subtraction, multiplication, division and Sums, eg.
+
+const numOne = 5
+const numTwo = 12
+const result = numTwo + numOne
+console.log(result)
+
+Printing "17"
+
+The second session, we looked at operators.
+Boolean Logic operators, AND, OR & NOT, that are used to make decisions by comparing values
+The syntax for these are:
+&& (AND)
+|| (OR)
+!  (NOT)
+
+We then touched on functions, a block of code designed to perform an action/particular task.
+This code is executed when something calls it.
+
+The basics of declaring and executing a function is as follows, using the simple
+"Hello world" example:
+
+// Defining function
+function greet() {
+   document.write("Hello, World!");
+}
+​
+// Invoke the function
+greet();
+
+
+
+
