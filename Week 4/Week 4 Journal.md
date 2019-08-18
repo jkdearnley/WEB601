@@ -91,11 +91,12 @@ req = {
 
 
 Program Flow
-Customer -> Middleware -> Middleware  -> Response
+<pre>Customer -> Middleware -> Middleware  -> Response
 /table   -> 1 - Booking-> Table 4    ->  Message
             2 - Age   ->  app.get()  ->  res.send()
             next()
-            app.use()
+            app.use(
+</pre>
 
 <pre>const express = require('express');
 const tableRoute = express.Router()
