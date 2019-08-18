@@ -1,5 +1,6 @@
 # WEB 601 - Week 4
 
+## Session 1
 The first session of this week, we began to cover web apps and communication between front and back end
 using JavaScript, specifically Node JS
 
@@ -60,6 +61,63 @@ Or (to be less specific)
   }
 }</pre>
 
+## Session 2
+This session we covered Require statements, Middlware, Routes and app.listen in Express.js.
+
+Require
+<pre>const require = require('express')</pre>
+
+Middleware
+Pass-through functions that do or add something useful to the request
+<pre>app.use  ('/table', function(req, res, next))
+app.use(function (req, res, next)) {
+if (booking && age) {
+        next()
+    }
+}</pre>
+
+Routes
+<pre>app.get('/table/:amount', function(req, res, next) {
+    var.dinner = req.params.amount
+    res.send('looking for table'  + dinner + '!')
+}
+)
+
+req = {
+    param: {
+        amount: 4
+    }
+}</pre>
+
+
+Program Flow
+Customer -> Middleware -> Middleware  -> Response
+/table   -> 1 - Booking-> Table 4    ->  Message
+            2 - Age   ->  app.get()  ->  res.send()
+            next()
+            app.use()
+
+<pre>const express = require('express');
+const tableRoute = express.Router()
+table.Route.use (function(req, res, next){
+    var booking = req.booking
+    var age = req.age
+        if (booking && age){
+            next()
+        }    
+})
+
+table.Route.use('/bar', function(req, res, next){
+    var age =req.age
+    if(age >= 18) {
+        next()
+    }
+})
+
+Application
+app.listen(3000) {
+    console.log('running port 3000')
+}</pre>
 
 
 
