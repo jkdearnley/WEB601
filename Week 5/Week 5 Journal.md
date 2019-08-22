@@ -54,3 +54,5 @@ res.status
     * server error = 500
 res.json() or res.json(status, json)
 res.render (render page back)
+
+##Session 2
