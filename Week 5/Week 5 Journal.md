@@ -1,4 +1,6 @@
 # Week 5 Journal
+This week we covered URLs, HTTP request methods and React components
+
 ## Session 1
 
 ### Request Object (Req)
@@ -28,9 +30,10 @@ Fragment/Hash(#)
     * #history
 
 ###HTTP Request methods
-    * GET AND POST
+    * GET - Retrieve something from server 
+    * POST - Send something to server
+
 Req Headers
-    * 
     //shows header information in your browser
 app.get(/headers, function(req, res){
     res.set('Content-Type', 'text/plain')
@@ -56,3 +59,13 @@ res.json() or res.json(status, json)
 res.render (render page back)
 
 ##Session 2
+React
+2 parts - React & React-dom
+
+###React
+A javaScript library
+Handles components
+
+###React-dom
+Renders components
+
