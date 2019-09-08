@@ -1,6 +1,6 @@
 # Week 7 Journal
 ## Session 1
-This session we started on react components .)
+This session we started on react components.)
 
 ### Components
 A component is a "building block" of any React app and most will have many of them.
@@ -10,10 +10,10 @@ Functional, or stateless components, is a JS/ES6 function, that must return a re
 parameter if necessary.
 
 Functional Component Example:
-<pre>function Welcome(props) {
+```function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
 }
-</pre>
+```
 
 Class (Stateful) Components are ES6 classes. They are more complex and include;
 * Constructors
@@ -24,7 +24,7 @@ Class (Stateful) Components are ES6 classes. They are more complex and include;
 A react class component is an ES6 class; A component when it 'extends' React component, can accept props in the constructor as needed, 
 maintains its own data with state when needed and must have a render method, returning a React element or null
 
-<pre>import React, {Component} from 'React'
+```import React, {Component} from 'React'
 
 class Example extends Component {
 render() {
@@ -35,4 +35,4 @@ return (
 }
 
 export default Example
-</pre>
+```
